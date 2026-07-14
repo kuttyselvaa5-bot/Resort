@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body{
+ background-color: black;
+ color: white;
+
+
+}
+.container{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+header{
+    padding: 20px;
+}
+
+nav ul{
+
+    list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+margin: 0 10px;
+
+}
+nav ul li a {
+    color: white;
+    text-align: none;
+}
+.recipes{
+    margin-top: 30px;
+}
+.card {
+ width: 220px;
+ display: inline-block;
+ background-color: white;
+ color: black;
+ border: 20px solid black;
+ margin: 50px;
+ text-align: center;
+ vertical-align: top;
+
+
+}
+
+.card img{
+    width: 220px;
+    height: 220px;
+
+}
+.card h3{
+
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card p{
+    padding: 10px;
+    margin-top: 20px;
+}
+.btn{
+ display: inline-block;
+background-color: black;
+color: white;
+text-decoration: none;
+padding: 8px 20px;
+margin: 30px;
+
+
+}
+.contact{
+    text-align: center;
+    margin-top: 30px;
+}
+.contact table{
+   margin: auto;
+
+}
+.contact td{
+padding: 8px;
+color: white;
+
+}
+.contact input{
+  width: 250px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+.contact button{
+    background-color: yellow;
+    color: white;
+
+    
+    display: inline-block;
+    color: black;
+    border: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
